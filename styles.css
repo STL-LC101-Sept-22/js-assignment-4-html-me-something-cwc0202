@@ -103,6 +103,17 @@ header {
   box-shadow: 10px 5px 10px rgb(101, 101, 101);
 }
 
+#rightButton {
+  position: relative;
+  left: 45%;
+  
+}
+#leftButton {
+  position: relative;
+  right: 45%;
+  
+}
+
 .galleryTitle {
   margin: 0%;
 }
