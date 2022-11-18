@@ -3,8 +3,16 @@
   box-sizing: border-box;
 }
 
+#mainHeading {
+  color: red;
+}
+.funParagraph {
+color: green;
+}
 body {
   background-color: rgb(122, 117, 88);
+  display: block;
+  margin: 8px;
 }
 
 main {
@@ -51,6 +59,7 @@ p {
   font-size: 2rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 
 footer {
   background-color: rgb(21, 14, 79);
