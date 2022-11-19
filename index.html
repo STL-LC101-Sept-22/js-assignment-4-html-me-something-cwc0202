@@ -6,7 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="styles.css">
-   <script src="script.js"></script>
+   <!-- <script src="script.js"></script> -->
    <title>CC Gallery</title>
 </head>
 
@@ -21,93 +21,36 @@
          <p class="galleryTitle">
             Goblin Chess Set
          </p>
-         <!-- images that act as links -->
-         <div class="previewContainer">
-            <a href="images/chess/IMG_2925.jpg" target="_blank" class="previewImage">
-               <img src="images/chess/IMG_2925.jpg" class="previewImage">
-            </a>
-            <!-- toDo add a div for buttons to seperate tehm from container -->
-            <button type="button" onclick="nextImageLeft()" id="leftButton">&#60;</button>
-            <button type="button" onclick="nextImageRight()" id="rightButton">&#62;</button>
+
+         <div id="previewContainer">
+
+            <img src="images/chess/IMG_2925.jpg" class="previewImage">
+         </div>
+         <div class="buttonDiv">
+            <button type="button" onclick="nextImageLeft(); changePreviewImage();" id="leftButton">&#60;</button>
+            <button type="button" onclick="nextImageRight(); changePreviewImage()" id="rightButton">&#62;</button>
          </div>
          <div class="galleryContainer">
-            <a href="images/chess/IMG_2925.jpg" target="_blank" >
-               <img src="images/chess/IMG_2925.jpg" class="displayImage" id="selectedImage">
-            </a>
-            <a href="images/chess/IMG_2913.jpg" target="_blank">
-               <img src="images/chess/IMG_2913.jpg" class="displayImage">
-            </a>
-            <a href="images/chess/IMG_2915.jpg" target="_blank">
-               <img src="images/chess/IMG_2915.jpg" class="displayImage">
-            </a>
-            <a href="images/chess/IMG_2916.jpg" target="_blank">
-               <img src="images/chess/IMG_2916.jpg" class="displayImage">
-            </a>
-            <a href="images/chess/IMG_2918.jpg" target="_blank">
-               <img src="images/chess/IMG_2918.jpg" class="displayImage">
-            </a>
-            <a href="images/chess/IMG_2920.jpg" target="_blank">
-               <img src="images/chess/IMG_2920.jpg" class="displayImage">
-            </a>
-            <a href="images/chess/IMG_2922.jpg" target="_blank">
-               <img src="images/chess/IMG_2922.jpg" class="displayImage">
-            </a>
+
+            <img src="images/chess/IMG_2925.jpg" class="displayImage" id="selectedImage">
+
+
+            <img src="images/chess/IMG_2913.jpg" class="displayImage">
+
+            <img src="images/chess/IMG_2915.jpg" class="displayImage">
+
+            <img src="images/chess/IMG_2916.jpg" class="displayImage">
+
+            <img src="images/chess/IMG_2918.jpg" class="displayImage">
+
+            <img src="images/chess/IMG_2920.jpg" class="displayImage">
+
+            <img src="images/chess/IMG_2922.jpg" class="displayImage">
+
 
          </div>
       </div>
-      <!-- <div class="slideshowContainer">
-         <p class="galleryTitle">
-            Dwarf Berserker
-         </p>
-         <a href="images/chess/IMG_2925.jpg" target="_blank">
-            <img src="images/dwarf/IMG_2723.jpg" class="displayImage">
-         </a>
-         <div class="galleryImage">
-  
-            <a href="images/chess/IMG_2925.jpg" target="_blank">
-               <img src="images/dwarf/IMG_2723.jpg" class="displayImage">
-            </a>
-            <a href="images/chess/IMG_2925.jpg" target="_blank">
-               <img src="images/dwarf/IMG_2723.jpg" class="displayImage">
-            </a>
-            <a href="images/chess/IMG_2925.jpg" target="_blank">
-               <img src="images/dwarf/IMG_2723.jpg" class="displayImage">
-            </a>
-         </div>
-      </div>
-      <div class="slideshowContainer">
-         <p>
-            The Gallant Knight
-         </p class="galleryTitle">
-         <a href="images/chess/IMG_2925.jpg" target="_blank">
-            <img src="images/knight/IMG_2746.jpg" class="displayImage">
-         </a>
-         <div class="galleryImage">
-
-         </div>
-      </div>
-      <div class="slideshowContainer">
-         <p class="galleryTitle">
-            "3 adventurers are sitting in a tavern...""
-         </p>
-         <a href="images/chess/IMG_2925.jpg" target="_blank">
-            <img src="images/party/IMG_2937.jpg" class="displayImage">
-         </a>
-         <div class="galleryImage">
-  
-         </div>
-      </div>
-      <div class="slideshowContainer">
-         <p class="galleryTitle">
-            La Madre Des Los Muertos
-         </p>
-         <a href="images/chess/IMG_2925.jpg" target="_blank">
-            <img src="images/muertos/IMG_2949.jpg" class="displayImage">
-         </a>
-         <div class="galleryImage">
-
-         </div>
-      </div> -->
+      <article class="explanation">I tried to use this assignment as an opportunity to push myself and try to learn something new. After much time and effort, I have given up on creating a vanilla JS slideshow. I know I am capable but I feel my time will be better spent moving forward with the class. It was fun though, and I learned a lot while failing.</article>
    </main>
    <footer>
       <div class="footerTitle">Socials</div>
