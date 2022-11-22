@@ -1,8 +1,66 @@
 <!DOCTYPE html>
-<html>
-   <head>
-   </head>
-   <body>
-      <!-- Write your HTML in this file! -->
-   </body>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <script src="script.js"></script>
+   <title>CC Gallery</title>
+</head>
+
+<body>
+   <header>
+      <h1 id="mainHeading">Chris Cleveland Paint and Sculpture&trade;</h1>
+      <p class="funParagraph" id="testP"><em>Painting scuplture of all sizes since 2019</em></p>
+
+   </header>
+   <main>
+      <div class="slideshowContainer">
+         <p class="galleryTitle">
+            Goblin Chess Set
+         </p>
+
+         <div id="previewContainer">
+
+            <img src="images/chess/IMG_2925.jpg" class="previewImage">
+         </div>
+         <div class="buttonDiv">
+            <button type="button" onclick="nextImageLeft(); changePreviewImage();" id="leftButton">&#60;</button>
+            <button type="button" onclick="nextImageRight(); changePreviewImage()" id="rightButton">&#62;</button>
+         </div>
+         <div class="galleryContainer">
+
+            <img src="images/chess/IMG_2925.jpg" class="displayImage" id="selectedImage">
+
+
+            <img src="images/chess/IMG_2913.jpg" class="displayImage">
+
+            <img src="images/chess/IMG_2915.jpg" class="displayImage">
+
+            <img src="images/chess/IMG_2916.jpg" class="displayImage">
+
+            <img src="images/chess/IMG_2918.jpg" class="displayImage">
+
+            <img src="images/chess/IMG_2920.jpg" class="displayImage">
+
+            <img src="images/chess/IMG_2922.jpg" class="displayImage">
+
+
+         </div>
+      </div>
+      <article class="explanation">I tried to use this assignment as an opportunity to push myself and try to learn something new. After much time and effort, I have given up on creating a vanilla JS slideshow. I know I am capable but I feel my time will be better spent moving forward with the class. It was fun though, and I learned a lot while failing.</article>
+   </main>
+   <footer>
+      <div class="footerTitle">Socials</div>
+      <ul>
+         <li><a href="instagram.com">Instagram</a></li>
+         <li><a href="facebook.com">Facebook</a></li>
+         <li><a href="twitter.com">Twitter</a></li>
+         <li><a href="artstation.com">Artstation</a></li>
+      </ul>
+   </footer>
+</body>
+
 </html>
