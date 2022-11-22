@@ -52,13 +52,13 @@ function nextImageRight() {
                 gallery[0].id = 'selectedImage'
             }
         }
-    }
+    }        
 }
 function changePreviewImage() {
     
     let preview = document.getElementById('previewContainer');
     let selected = document.getElementById('selectedImage');
-    preview.innerHTML = 'fdjasklfdas'
+    preview.innerHTML = `<img src=${selected.src} class="previewImage">`
 // dnot working currently
 }
 window.addEventListener('load', changePreviewImage())
